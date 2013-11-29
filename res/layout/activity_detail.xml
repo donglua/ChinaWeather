@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099ff"
+    android:padding="10dip" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/dCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:textColor="#ffffff"
+                android:textScaleX="0.8"
+                android:textSize="70sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dTemp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/dWeather1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/dWind1_fl1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:textSize="22sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="穿衣指数:"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/dIndex_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="紫外线指数:"
+                android:textColor="#ffffff"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/dIndex_uv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                 android:layout_marginLeft="66sp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="洗车指数:"
+                android:textColor="#ffffff"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/dIndex_xc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="88sp"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="旅游指数:"
+                android:textColor="#ffffff"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/dIndex_tr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="88sp"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="舒适度指数:"
+                android:textColor="#ffffff"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/dIndex_co"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="66sp"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="晨练指数:"
+                android:textColor="#ffffff"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/dIndex_cl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="88sp"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="晾晒指数:"
+                android:textColor="#ffffff"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/dIndex_ls"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="88sp"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="息斯敏过敏指数:"
+                android:textColor="#ffffff"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/dIndex_ag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+    	        android:layout_marginLeft="22sp"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
